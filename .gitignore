@@ -1,3 +1,18 @@
+# VS Code settings
 .vscode/*
+
+# macOS system files
+.DS_Store
+**/.DS_Store
+
+# bin = build artifacts only
 bin/*
 !bin/.keep
+
+# build files (C/C++)
+*.o
+*.dylib
+main
+
+# generated images (אם לא נדרש להגיש)
+bin/*.png
